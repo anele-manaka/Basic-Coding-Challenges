@@ -10,7 +10,7 @@ function commonCharacters(str1, str2) {
     });
 
   let commonString = commonArray.join(",");
-  return "The common characters among these two strings are: " + commonString;
+  return "The common characters among these two strings are as follows: " + commonString;
 }
 
 console.log(commonCharacters("Hi, my name is Anele Manaka", "My favorite color is black"))
