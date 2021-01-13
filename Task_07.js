@@ -11,7 +11,6 @@ console.log(convertCelsiusToFarenheit (-10));
 
 
 
-
 function convertFarenheitToCelsius (farenheit) {
     var celsius;
 
@@ -19,6 +18,7 @@ function convertFarenheitToCelsius (farenheit) {
 
     return celsius;
 }
+
 
 console.log(convertFarenheitToCelsius (68));
 console.log(convertFarenheitToCelsius (115));
