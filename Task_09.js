@@ -1,21 +1,21 @@
-function vowels(str){
+function vowels(string){
     var strVowels = '';
-    for(var i = 0; i < str.length; i++){
-        if (str[i] == 'a' || 
-            str[i] == 'A' || 
+    for(var i = 0; i < string.length; i++){
+        if (string[i] == 'a' || 
+            string[i] == 'A' || 
 
-            str[i] == 'e' || 
-            str[i] == 'E' || 
+            string[i] == 'e' || 
+            string[i] == 'E' || 
 
-            str[i] == 'i' || 
-            str[i] == 'I' || 
+            string[i] == 'i' || 
+            string[i] == 'I' || 
 
-            str[i] == 'o' || 
-            str[i] == 'O' || 
+            string[i] == 'o' || 
+            string[i] == 'O' || 
 
-            str[i] == 'u' || 
-            str[i] == 'U') {
-            strVowels += str[i];
+            string[i] == 'u' || 
+            string[i] == 'U') {
+            strVowels += string[i];
         }
     }
     return strVowels;
