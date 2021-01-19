@@ -16,7 +16,3 @@ function maximum (a, b, c) {
 }
 
 console.log(maximum(11211,12111,11121));
-
-console.log(maximum(4555,4455,5454));
-
-console.log(maximum(9998989,8888888,99999));
